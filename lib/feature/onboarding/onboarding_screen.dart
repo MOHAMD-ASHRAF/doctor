@@ -12,16 +12,17 @@ class OnBoardingScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
+
         child: SingleChildScrollView(
           child: Padding(
             padding: EdgeInsets.only(top: 30.h, bottom: 30.h),
             child: Column(
               children: [
-                DocLogoAndName(),
+                const DocLogoAndName(),
                 SizedBox(
                   height: 30.h,
                 ),
-                DoctorImageAndText(),
+                const DoctorImageAndText(),
                 Padding(
                   padding:  EdgeInsets.symmetric(horizontal: 30.w),
                   child: Column(
