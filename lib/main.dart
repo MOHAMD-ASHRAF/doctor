@@ -4,3 +4,7 @@ import 'package:doctor/doc_app.dart';
 void main() {
   runApp( DocApp(appRouter: AppRouter(),));
 }
+
+
+
+//dart run build_runner build --delete-conflicting-outputs
