@@ -1,10 +1,13 @@
+import 'package:doctor/core/di/dependency_injection.dart';
 import 'package:doctor/core/routing/app_router.dart';
 import 'package:flutter/material.dart';
 import 'package:doctor/doc_app.dart';
+
 void main() {
-  runApp( DocApp(appRouter: AppRouter(),));
+  setupGetIt();
+  runApp(DocApp(
+    appRouter: AppRouter(),
+  ));
 }
-
-
 
 //dart run build_runner build --delete-conflicting-outputs
