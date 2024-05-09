@@ -2,8 +2,9 @@
 // class Assets {
 //   Assets._();
 //
-//   static const String diDependancyInjection = 'lib/core/di/dependency_injection.dart';
+//   static const String diDependencyInjection = 'lib/core/di/dependency_injection.dart';
 //   static const String generatedAssets = 'lib/generated/assets.dart';
+//   static const String helpersAooRegex = 'lib/core/helpers/app_regex.dart';
 //   static const String helpersExtesions = 'lib/core/helpers/extesions.dart';
 //   static const String helpersSpacing = 'lib/core/helpers/spacing.dart';
 //   static const String imagesLogo2 = 'assets/images/logo2.png';
@@ -36,13 +37,17 @@
 //   static const String themingColors = 'lib/core/theming/colors.dart';
 //   static const String themingFontWeightHelper = 'lib/core/theming/font_weight_helper.dart';
 //   static const String themingStyle = 'lib/core/theming/style.dart';
+//   static const String uiHomeScreen = 'lib/feature/login/ui/home_screen.dart';
 //   static const String uiLoginScreen = 'lib/feature/login/ui/login_screen.dart';
 //   static const String widgetsAlreadyHaveAccountText = 'lib/feature/login/ui/widgets/already_have_Account_Text.dart';
 //   static const String widgetsAppTextButton = 'lib/core/widgets/app_text_button.dart';
 //   static const String widgetsAppTextFormField = 'lib/core/widgets/app_text_form_field.dart';
 //   static const String widgetsDocLogoAndName = 'lib/feature/onboarding/widgets/doc_logo_and_name.dart';
 //   static const String widgetsDoctorImageAndText = 'lib/feature/onboarding/widgets/doctor_image_and_text.dart';
+//   static const String widgetsEmailAndPassword = 'lib/feature/login/ui/widgets/email_and_password.dart';
 //   static const String widgetsGetStartedBottton = 'lib/feature/onboarding/widgets/get_Started_bottton.dart';
+//   static const String widgetsLoginBlocListener = 'lib/feature/login/ui/widgets/login_bloc_listener.dart';
+//   static const String widgetsPasswordValidations = 'lib/feature/login/ui/widgets/password_validations.dart';
 //   static const String widgetsTermsAndConditionsText = 'lib/feature/login/ui/widgets/terms_and_conditions_text.dart';
 //
 // }

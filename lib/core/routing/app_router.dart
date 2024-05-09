@@ -1,6 +1,7 @@
 import 'package:doctor/core/di/dependency_injection.dart';
 import 'package:doctor/core/routing/routes.dart';
 import 'package:doctor/feature/login/logic/login_cubit.dart';
+import 'package:doctor/feature/login/ui/home_screen.dart';
 import 'package:doctor/feature/login/ui/login_screen.dart';
 import 'package:doctor/feature/onboarding/onboarding_screen.dart';
 import 'package:flutter/material.dart';
@@ -13,6 +14,8 @@ class AppRouter {
     switch (settings.name) {
       case Routes.onBoardingScreen:
         return MaterialPageRoute(builder: (_) => const OnBoardingScreen());
+      case Routes.homeScreen:
+        return MaterialPageRoute(builder: (_) => const HomeScreen());
       case Routes.loginScreen:
         return MaterialPageRoute(
           builder: (_) => BlocProvider(
