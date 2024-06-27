@@ -1,7 +1,8 @@
 import 'package:doctor/core/di/dependency_injection.dart';
 import 'package:doctor/core/routing/routes.dart';
+import 'package:doctor/feature/home/ui/home_screen.dart';
 import 'package:doctor/feature/login/logic/login_cubit.dart';
-import 'package:doctor/feature/login/ui/home_screen.dart';
+
 import 'package:doctor/feature/login/ui/login_screen.dart';
 import 'package:doctor/feature/onboarding/onboarding_screen.dart';
 import 'package:doctor/feature/sign_up/logic/sign_up_cubit.dart';
@@ -11,7 +12,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 class AppRouter {
   Route generateRoute(RouteSettings settings) {
-    final     arguments = settings.arguments;
+    final    arguments = settings.arguments;
 
     switch (settings.name) {
       case Routes.onBoardingScreen:

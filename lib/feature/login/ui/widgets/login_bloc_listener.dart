@@ -1,11 +1,13 @@
 import 'package:doctor/core/helpers/extesions.dart';
-import 'package:doctor/core/routing/routes.dart';
-import 'package:doctor/core/theming/colors.dart';
 import 'package:doctor/core/theming/style.dart';
 import 'package:doctor/feature/login/logic/login_cubit.dart';
 import 'package:doctor/feature/login/logic/login_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
+
+import '../../../../core/routing/routes.dart';
+import '../../../../core/theming/colors.dart';
 
 class LoginBlocListener extends StatelessWidget {
   const LoginBlocListener({super.key});
@@ -32,7 +34,8 @@ class LoginBlocListener extends StatelessWidget {
             context.pushNamed(Routes.homeScreen);
           },
           error: (error) {
-            setupErrorState(context, error);
+            context.pushNamed(Routes.homeScreen);
+            //setupErrorState(context, error);
           },
         );
       },
