@@ -41,10 +41,20 @@ class DoctorBLueContainer extends StatelessWidget {
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(48),
                           )),
-                      child: Text('Find Nearby',style: TextStyles.font112BlueRegular,)),
+                      child: Text(
+                        'Find Nearby',
+                        style: TextStyles.font112BlueRegular,
+                      )),
                 )
               ],
             ),
+          ),
+          Positioned(
+              right: 8.w,
+              top: 0,
+              child: Image.asset('assets/images/cr7.png',
+              height: 210.h,
+              )
           )
         ],
       ),

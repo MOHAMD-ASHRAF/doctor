@@ -7,7 +7,8 @@
 //   static const String helpersAppRegex = 'lib/core/helpers/app_regex.dart';
 //   static const String helpersExtesions = 'lib/core/helpers/extesions.dart';
 //   static const String helpersSpacing = 'lib/core/helpers/spacing.dart';
-//   static const String imagesBackground = 'assets/images/home_blue_pattern.png';
+//   static const String imagesCr7 = 'assets/images/cr7.png';
+//   static const String imagesHomeBluePattern = 'assets/images/home_blue_pattern.png';
 //   static const String imagesLogo2 = 'assets/images/logo2.png';
 //   static const String imagesOnboardingDocotr = 'assets/images/onboarding_docotr.png';
 //   static const String imagesSplash = 'assets/images/splash.png';
