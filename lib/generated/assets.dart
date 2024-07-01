@@ -7,6 +7,7 @@
 //   static const String helpersAppRegex = 'lib/core/helpers/app_regex.dart';
 //   static const String helpersExtesions = 'lib/core/helpers/extesions.dart';
 //   static const String helpersSpacing = 'lib/core/helpers/spacing.dart';
+//   static const String imagesBackground = 'assets/images/home_blue_pattern.png';
 //   static const String imagesLogo2 = 'assets/images/logo2.png';
 //   static const String imagesOnboardingDocotr = 'assets/images/onboarding_docotr.png';
 //   static const String imagesSplash = 'assets/images/splash.png';
@@ -55,6 +56,7 @@
 //   static const String widgetsAppTextButton = 'lib/core/widgets/app_text_button.dart';
 //   static const String widgetsAppTextFormField = 'lib/core/widgets/app_text_form_field.dart';
 //   static const String widgetsDocLogoAndName = 'lib/feature/onboarding/widgets/doc_logo_and_name.dart';
+//   static const String widgetsDoctorBlueContainer = 'lib/feature/home/ui/widgets/doctor_blue_container.dart';
 //   static const String widgetsDoctorImageAndText = 'lib/feature/onboarding/widgets/doctor_image_and_text.dart';
 //   static const String widgetsDontHaveAccountText = 'lib/feature/login/ui/widgets/dont_have_account_text.dart';
 //   static const String widgetsEmailAndPassword = 'lib/feature/login/ui/widgets/email_and_password.dart';
