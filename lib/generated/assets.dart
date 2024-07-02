@@ -44,6 +44,7 @@
 //   static const String repoSignUpRepo = 'lib/feature/sign_up/data/repo/sign_up_repo.dart';
 //   static const String routingAppRouter = 'lib/core/routing/app_router.dart';
 //   static const String routingRoutes = 'lib/core/routing/routes.dart';
+//   static const String svgs585639769444749 = 'assets/svgs/58563976_9444749.svg';
 //   static const String svgsDocdocLogoLowOpacity = 'assets/svgs/docdoc_logo_low_opacity.svg';
 //   static const String svgsLogo = 'assets/svgs/logo.svg';
 //   static const String svgsNotifications = 'assets/svgs/notifications.svg';
@@ -59,6 +60,8 @@
 //   static const String widgetsDocLogoAndName = 'lib/feature/onboarding/widgets/doc_logo_and_name.dart';
 //   static const String widgetsDoctorBlueContainer = 'lib/feature/home/ui/widgets/doctor_blue_container.dart';
 //   static const String widgetsDoctorImageAndText = 'lib/feature/onboarding/widgets/doctor_image_and_text.dart';
+//   static const String widgetsDoctorSpecialityListView = 'lib/feature/home/ui/widgets/doctor_speciality_list_view.dart';
+//   static const String widgetsDoctorSpecialitySeeAll = 'lib/feature/home/ui/widgets/doctor_specialitySeeAll.dart';
 //   static const String widgetsDontHaveAccountText = 'lib/feature/login/ui/widgets/dont_have_account_text.dart';
 //   static const String widgetsEmailAndPassword = 'lib/feature/login/ui/widgets/email_and_password.dart';
 //   static const String widgetsGetStartedBottton = 'lib/feature/onboarding/widgets/get_Started_bottton.dart';
